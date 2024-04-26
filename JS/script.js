@@ -20,7 +20,7 @@ btn.addEventListener('click',()=>{
   let curr2 = select[1].value
   let inputVal = input.value
   if(curr1===curr2)
-    alert("Choose different currencies")
+  swal("Hey..dude", "...choose different currencies!");
   else
     convert(curr1,curr2,inputVal)
 });
